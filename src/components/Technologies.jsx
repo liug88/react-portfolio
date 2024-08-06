@@ -2,6 +2,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { FaPython, FaJava} from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
 import { motion } from "framer-motion"; 
 
 const iconVariants = (duration) => ({
@@ -47,6 +48,14 @@ const Technologies = () => {
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <TbBrandNextjs className="text-7xl" />
                 <p className="text-center">Next.js</p>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(4)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiPostman className="text-7xl text-orange-400" />
+                <p className="text-center">Postman</p>
             </motion.div>
             <motion.div 
             variants={iconVariants(5)}

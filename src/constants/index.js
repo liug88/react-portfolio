@@ -1,42 +1,54 @@
 import project3 from "../assets/projects/project-3.jpg";
+import CARPI from "../assets/projects/CARPI.png";
 
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = 
+`Hi I'm Gavin Liu! 
+I'm a Junior majoring in Computer Science at Rensselaer Polytechnic Institute. 
+When I'm not LeetCoding, you can catch me playing volleyball, eating ramen, or hanging out with friends across campus.
+ I love learning more about computer science and am always looking for new opportunities to grow my skills.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = 
+`I was born in Pittsburgh, but I currently live in Apple Valley California, which is 1/3 of the way between Los Angeles and Las Vegas. 
+I'm half Taiwanese and Hong Kongese, and I'm fluent in English and  conversational in Mandarin.
+I have worked with a variety of technologies, including React, Next.js, MongoDB, Python, and Java. 
+My CS Journey began with a deep curiosity for how things work, 
+and it has evolved into a career where I continuously strive to learn and adapt to new challenges. 
+I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. 
+Outside of coding, I enjoy playing sports such as volleyball and basketball, playing video games, and listening to a wide variey of music.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "June 2024 - September 2024",
+    role: "Summer Digital Intern",
+    company: "IssacGroup Healthcare",
+    description: `Developed and maintained a database of customers, as well as improving the main company website a combination of React.js, Next.js and MongoDB. Integrated with MongoDB databases, and collaborated with co-workers to define project requirements and timelines.`,
+    technologies: ["React.js", "Next.js", "MongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "May 2023 - August 2023",
+    role: "Summer Intern",
+    company: "Rabbit Air",
+    description: `Leveraged Google Cloud's VertexAI to drive predictive insights for product performance, optimizing our strategies. Additionally, streamlined operations by utilizing Shopify for tasks ranging from blog updates to customer data management. Maintained product data with continuous updates on Google Merchant, and further enhanced data management by developing a Python program using the Shopify API to gather and store customer information efficiently into a csv file`,
+    technologies: ["Python", "Shopify", "VertexAI", "PostmanAPI"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "July 2021 - August 2021",
+    role: "Summer Intern",
+    company: "Bytes and Bots",
+    description: `Utilized HTML and Heroku to design an administrative console with the existing internal database to incorporate the existing faculty and student information.`,
+    technologies: ["HTML", "Heroku"],
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: "CARPI Bot",
+    image: CARPI,
+    description:
+      "Developed CARPI Bot (Cool Academic RPI Bot) using the Python Discord Library to create an open source Discord bot to enhance RPI Student QoL through moderation shortcuts, text-based calculators, and quick access to the RPI Academic Calendar. Utilized a stack consisting of Python, discord.py, and Beautiful Soup 4",
+    technologies: ["Python", "discord.py", "Beautiful Soup 4"],
+  },
   {
     title: "Portfolio Website",
     image: project3,
@@ -47,7 +59,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "2150 12th Street, Troy,NY 12180 ",
+  address: "2150 12th Street, Troy, NY 12180 ",
   phoneNo: "626-365-3783 ",
   email: "gavinliu368@gmail.com",
 };
