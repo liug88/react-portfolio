@@ -50,10 +50,10 @@ export const PROJECTS = [
     technologies: ["Python", "discord.py", "Beautiful Soup 4"],
   },
   {
-    title: "Portfolio Website",
+    title: "Resume Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A personal resume website showcasing my various projects, skills, work experience, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   }
 ];
