@@ -4,7 +4,7 @@ import CARPI from "../assets/projects/CARPI.png";
 
 export const HERO_CONTENT = 
 `Hi I'm Gavin Liu! 
-I'm a Junior majoring in Computer Science at Rensselaer Polytechnic Institute. 
+I'm a junior in the class of 2026 majoring in Computer Science at Rensselaer Polytechnic Institute. 
 When I'm not LeetCoding, you can catch me playing volleyball, eating ramen, or hanging out with friends across campus.
  I love learning more about computer science and am always looking for new opportunities to grow my skills.`;
 
@@ -12,8 +12,7 @@ export const ABOUT_TEXT =
 `I was born in Pittsburgh, but I currently live in Apple Valley California, which is 1/3 of the way between Los Angeles and Las Vegas. 
 I'm half Taiwanese and Hong Kongese, and I'm fluent in English and  conversational in Mandarin.
 I have worked with a variety of technologies, including React, Next.js, MongoDB, Python, and Java. 
-My CS Journey began with a deep curiosity for how things work, 
-and it has evolved into a career where I continuously strive to learn and adapt to new challenges. 
+My CS Journey began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. 
 I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. 
 Outside of coding, I enjoy playing sports such as volleyball and basketball, playing video games, and listening to a wide variey of music.`;
 
