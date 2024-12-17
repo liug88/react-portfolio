@@ -15,12 +15,12 @@ const App = () => {
       
       <div className="container mx-auto px-8">
         <Navbar />
-        <Hero />
-        <About />
-        <Technologies />
-        <Experience />
-        <Projects />
-        <Contact />
+        <section id="home"><Hero /></section>
+        <section id="about"><About /></section>
+        <section id="technologies"><Technologies /></section>
+        <section id="experiences"><Experience /></section>
+        <section id="projects"><Projects /></section>
+        <section id="contact"><Contact /></section>
       </div>
 
     </div>
